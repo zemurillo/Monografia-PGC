@@ -1,0 +1,26 @@
+% ----------------------------------------------------------
+% Introdução 
+% Capítulo sem numeração, mas presente no Sumário
+% ----------------------------------------------------------
+
+\chapter[Introdução]{Introdução}
+Embora o termo Inteligência Artificial tenha sido criado em 1956, a IA permaneceu por mais de meio século como uma área relativamente obscura na ciência, despertando pouco interesse prático \cite{haenlein2019BriefHistory}. Atualmente, com o surgimento do Big Data e o avanço do poder computacional, o uso da IA e do Aprendizado de Máquina, um subcampo da IA, tornou-se fundamental em diversas áreas do conhecimento, registrando um crescimento contínuo \cite{mijwil2022future}.
+
+Os sistemas baseados em IA cresceram a tal ponto que, em muitos casos, quase não há intervenção humana necessária para sua concepção e implementação. Com o desenvolvimento de algoritmos cada vez mais complexos, muitos modelos acabam se tornando “caixas-pretas”, pois ocultam informações sobre o processo de aprendizado, as representações internas e o funcionamento final do modelo em formatos que não são, ou são pouco, interpretáveis pelos seres humanos \cite{koh2017understang}. No entanto, quando as decisões derivadas desses sistemas afetam diretamente a vida das pessoas, como ocorre, por exemplo, nas áreas da medicina, do direito ou das finanças, surge uma necessidade cada vez maior de compreender como essas decisões são produzidas pelos métodos de IA.
+
+Uma solução que tem evoluído para enfrentar esse desafio é a área de Inteligência Artificial Explicável (XAI), cujo objetivo é desenvolver técnicas de aprendizado de máquina capazes de gerar explicações sobre o funcionamento dos modelos, permitindo que os seres humanos compreendam, confiem e consigam gerenciar de forma eficaz os resultados dos sistemas inteligentes \cite{arrieta2020explainable}. 
+Entretanto, aspectos específicos, como a colinearidade entre variáveis, podem afetar a qualidade dos resultados obtidos pelas técnicas de XAI \cite{salih2025a_perpective}. A colinearidade ocorre quando duas ou mais variáveis independentes apresentam alta correlação entre si, o que dificulta identificar quais delas são, de fato, responsáveis pelas variações no resultado do modelo, comprometendo, assim, a interpretação fornecida pelas técnicas explicativas.
+
+
+\section{Justificativa}\label{sec:justificativa}
+Conforme apresentado na introdução deste trabalho, a Inteligência Artificial Explicável (XAI) é fundamental para possibilitar que seres humanos compreendam, confiem e consigam gerenciar as decisões produzidas por modelos de Machine Learning. Entretanto, estudos como o de \citeonline{salih2025a_perpective} destacam que essas técnicas podem apresentar limitações quando há alta correlação entre as variáveis independentes utilizadas para treinar os modelos. Essa situação, conhecida como colinearidade, afeta a capacidade das técnicas de XAI em identificar, de forma precisa, quais variáveis realmente influenciam as previsões do modelo, comprometendo a qualidade e a confiabilidade das explicações geradas. 
+
+Apesar de alguns trabalhos abordarem esse problema, a questão da multicolinearidade ainda não é explorada e investigada de forma adequada na literatura \cite{Salih2024MiniReview}.
+
+
+
+\section{Objetivos}\label{sec:objetivos}
+
+Este trabalho tem como objetivo avaliar o impacto da colinearidade sobre técnicas de inteligência artificial explicável em modelos treinados com diferentes algoritmos de aprendizado de máquina. Busca-se compreender como a colinearidade afeta a estabilidade das explicações geradas, identificar quais modelos e quais técnicas geram rankings de importância mais estáveis, e investigar se tratamentos nos dados, como seleção de variáveis ou redução de dimensionalidade, podem melhorar a performance das explicações. Dessa forma, o estudo visa contribuir para o desenvolvimento de modelos mais transparentes e confiáveis em contextos onde variáveis altamente correlacionadas estão presentes.
+
+%\section{Organização do Trabalho}\label{sec:organizacao}

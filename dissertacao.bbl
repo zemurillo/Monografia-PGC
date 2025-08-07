@@ -1,0 +1,85 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[{Barredo Arrieta} et al. 2020]{arrieta2020explainable}
+\abntrefinfo{{Barredo Arrieta} et al.}{{Barredo Arrieta} et al.}{2020}
+{{Barredo Arrieta}, A. et al. Explainable artificial intelligence (xai):
+  Concepts, taxonomies, opportunities and challenges toward responsible ai.
+\emph{Information Fusion}, v.~58, p. 82--115, 2020.
+ISSN 1566-2535.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S1566253519308103}.}
+
+\bibitem[Basu e Maji 2022]{Basu2022Multicollinearity}
+\abntrefinfo{Basu e Maji}{BASU; MAJI}{2022}
+{BASU, I.; MAJI, S. Multicollinearity correction and combined feature effect
+  in shapley values. In:  LONG, G.; YU, X.; WANG, S. (Ed.). \emph{AI 2021:
+  Advances in Artificial Intelligence}. Cham: Springer International
+  Publishing, 2022. p. 79--90.
+ISBN 978-3-030-97546-3.}
+
+\bibitem[Haenlein e Kaplan 2019]{haenlein2019BriefHistory}
+\abntrefinfo{Haenlein e Kaplan}{HAENLEIN; KAPLAN}{2019}
+{HAENLEIN, M.; KAPLAN, A. A brief history of artificial intelligence: On the
+  past, present, and future of artificial intelligence.
+\emph{California Management Review}, v.~61, n.~4, p. 5--14, 2019.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1177/0008125619864925}.}
+
+\bibitem[Koh e Liang 2017]{koh2017understang}
+\abntrefinfo{Koh e Liang}{KOH; LIANG}{2017}
+{KOH, P.~W.; LIANG, P. Understanding black-box predictions via influence
+  functions. In:  PRECUP, D.; TEH, Y.~W. (Ed.). \emph{Proceedings of the 34th
+  International Conference on Machine Learning}. PMLR, 2017.  (Proceedings of
+  Machine Learning Research, v.~70), p. 1885--1894. Dispon{\'\i}vel em:
+  \url{https://proceedings.mlr.press/v70/koh17a.html}.}
+
+\bibitem[Mijwil et al. 2022]{mijwil2022future}
+\abntrefinfo{Mijwil et al.}{MIJWIL et al.}{2022}
+{MIJWIL, M.~M. et al. Has the future started? the current growth of artificial
+  intelligence, machine learning, and deep learning.
+\emph{Iraqi Journal for Computer Science and Mathematics}, v.~3, n.~1, 2022.
+Dispon{\'\i}vel em:
+  \url{https://ijcsm.researchcommons.org/ijcsm/vol3/iss1/13}.}
+
+\bibitem[Salih et al. 2022]{Salih2022Investigating}
+\abntrefinfo{Salih et al.}{SALIH et al.}{2022}
+{SALIH, A. et al. Investigating explainable artificial intelligence for
+  mri-based classification of dementia: a new stability criterion for
+  explainable methods. In:  \emph{2022 IEEE International Conference on Image
+  Processing (ICIP)}. [S.l.: s.n.], 2022. p. 4003--4007.}
+
+\bibitem[Salih 2024]{Salih2024MiniReview}
+\abntrefinfo{Salih}{SALIH}{2024}
+{SALIH, A.~M. \emph{Explainable Artificial Intelligence and Multicollinearity :
+  A Mini Review of Current Approaches}. 2024.
+Dispon{\'\i}vel em: \url{https://arxiv.org/abs/2406.11524}.}
+
+\bibitem[Salih 2025]{Salih2025AdditiveEffects}
+\abntrefinfo{Salih}{SALIH}{2025}
+{SALIH, A.~M. Explainable artificial intelligence for dependent features:
+  Additive effects of collinearity. In:  \emph{Proceedings of the 2024 8th
+  International Conference on Advances in Artificial Intelligence}. New York,
+  NY, USA: Association for Computing Machinery, 2025.  (ICAAI '24), p. 94–99.
+ISBN 9798400718014. Dispon{\'\i}vel em:
+  \url{https://doi.org/10.1145/3704137.3704152}.}
+
+\bibitem[Salih et al. 2024]{Salih2024Characterizing}
+\abntrefinfo{Salih et al.}{SALIH et al.}{2024}
+{SALIH, A.~M. et al. Characterizing the contribution of dependent features in
+  xai methods.
+\emph{IEEE Journal of Biomedical and Health Informatics}, v.~28, n.~11, p.
+  6466--6473, 2024.}
+
+\bibitem[Salih et al. 2025]{salih2025a_perpective}
+\abntrefinfo{Salih et al.}{SALIH et al.}{2025}
+{SALIH, A.~M. et al. A perspective on explainable artificial intelligence
+  methods: Shap and lime.
+\emph{Advanced Intelligent Systems}, v.~7, n.~1, p. 2400304, 2025.
+Dispon{\'\i}vel em:
+  \url{https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.202400304}.}
+
+\end{thebibliography}

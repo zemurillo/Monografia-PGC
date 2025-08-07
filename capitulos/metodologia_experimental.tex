@@ -27,7 +27,7 @@ A seguir serão apresentados mais detalhes sobre os conjuntos de dados.
 
 \subsection{Default of Credit Card Clients}
 
-Este conjunto de dados, obtido no Kaggle, contém 30 mil registros e 25 variáveis (24 explicativas e uma variável alvo). Ele reúne, além de dados cadastrais como sexo, idade, nível de escolaridade e estado civil, informações financeiras como limite de crédito, histórico de pagamentos, valores de faturas e pagamentos mensais de clientes de cartão de crédito em Taiwan, coletados entre abril e setembro de 2005.
+Este conjunto de dados, obtido no Kaggle \footnote{\url{https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset}}, contém 30 mil registros e 25 variáveis (24 explicativas e uma variável alvo). Ele reúne, além de dados cadastrais como sexo, idade, nível de escolaridade e estado civil, informações financeiras como limite de crédito, histórico de pagamentos, valores de faturas e pagamentos mensais de clientes de cartão de crédito em Taiwan, coletados entre abril e setembro de 2005.
 
 Todas as variáveis explicativas são numéricas, embora algumas representem categorias. A variável alvo indica se o cliente entrou em \textit{default} (inadimplência) no pagamento do mês seguinte (valor 1) ou não (valor 0). O conjunto é desbalanceado, com 77,9\% das amostras pertencentes à classe 0 e 22,1\% à classe 1.
 
@@ -49,7 +49,7 @@ Um resumo dos preditores utilizados é apresentado a seguir:
     \item \textbf{BILL\_AMT1} até \textbf{BILL\_AMT6}: Valor da fatura do cartão nos meses de setembro a abril de 2005, respectivamente (em dólares taiwaneses).
     \item \textbf{PAY\_AMT1} até \textbf{PAY\_AMT6}: Valor do pagamento realizado nos meses de setembro a abril de 2005, respectivamente (em dólares taiwaneses).
 \end{enumerate}
-Abaixo, temos a matriz de correlação das variáveis:
+Na Figura~\ref{fig:matriz_correlacao_inadimplencia}, temos a matriz de correlação das variáveis:
 
 \begin{figure}[H]
     \centering
@@ -62,7 +62,7 @@ A partir da matriz de correlação apresentada na Figura~\ref{fig:matriz_correla
 
 \subsection{Corporate Credit Rating}
 
-O \textit{Corporate Credit Rating Dataset}, disponível no Kaggle, contém 2029 registros e 31 variáveis, com dados financeiros de grandes empresas americanas listadas na NYSE e na Nasdaq entre 2010 e 2016. Destas, 30 são variáveis preditoras e uma é a variável alvo, correspondente à classificação de crédito atribuída às empresas. O conjunto inclui indicadores de liquidez, lucratividade, endividamento, fluxo de caixa e dados cadastrais, sendo utilizado para prever ratings de crédito — classificações emitidas por agências que indicam o risco de inadimplência das companhias.
+O \textit{Corporate Credit Rating Dataset}, disponível no Kaggle \footnote{\url{https://www.kaggle.com/datasets/agewerc/corporate-credit-rating}}, contém 2029 registros e 31 variáveis, com dados financeiros de grandes empresas americanas listadas na NYSE e na Nasdaq entre 2010 e 2016. Destas, 30 são variáveis preditoras e uma é a variável alvo, correspondente à classificação de crédito atribuída às empresas. O conjunto inclui indicadores de liquidez, lucratividade, endividamento, fluxo de caixa e dados cadastrais, sendo utilizado para prever ratings de crédito — classificações emitidas por agências que indicam o risco de inadimplência das companhias.
 
 As variáveis preditoras podem ser agrupadas da seguinte forma:
 
@@ -99,7 +99,7 @@ D     & 1   & 0.05  \\
 \end{tabular}
 \end{table}
 
-A seguir, apresenta-se a matriz de correlação entre as variáveis do dataset:
+A seguir na Figura~\ref{fig:matriz_correlacao_corporate_credit_rating}, apresenta-se a matriz de correlação entre as variáveis do dataset:
 
 \begin{figure}[H]
     \centering
@@ -113,9 +113,9 @@ A partir da matriz de correlação apresentada na Figura~\ref{fig:matriz_correla
 
 
 \subsection{Conjunto de dados sintéticos}
-Assim como em \citeonline{Salih2025AdditiveEffects}, o conjunto de dados sintético foi gerado utilizando o método \texttt{make\_classification} da biblioteca Scikit-learn, com os mesmos parâmetros utilizados no trabalho citado. Foram geradas 100 mil amostras com 16 variáveis preditoras (todas numéricas), nomeadas de \texttt{f1} a \texttt{f16}, das quais nove são informativas, cinco redundantes e duas representam ruído. Para introduzir diferentes níveis de colinearidade, foram adicionadas quatro novas variáveis (\texttt{f17}, \texttt{f18}, \texttt{f19} e \texttt{f20}) como combinações lineares de \texttt{f1}, \texttt{f2}, \texttt{f3} e \texttt{f4}, respectivamente.A variável alvo é balanceada e apresenta apenas duas classes, 0 ou 1. Na
+Assim como em \citeonline{Salih2025AdditiveEffects}, o conjunto de dados sintético foi gerado utilizando o método \texttt{make\_classification} da biblioteca Scikit-learn, com os mesmos parâmetros utilizados no trabalho citado. Foram geradas 100 mil amostras com 16 variáveis preditoras (todas numéricas), nomeadas de \texttt{f1} a \texttt{f16}, das quais nove são informativas, cinco redundantes e duas representam ruído. Para introduzir diferentes níveis de colinearidade, foram adicionadas quatro novas variáveis (\texttt{f17}, \texttt{f18}, \texttt{f19} e \texttt{f20}) como combinações lineares de \texttt{f1}, \texttt{f2}, \texttt{f3} e \texttt{f4}, respectivamente.A variável alvo é balanceada e apresenta apenas duas classes, 0 ou 1.
 
-Abaixo, a matriz de correlação dos dados:
+A Figura~\ref{fig:matriz_correlacao_dados_sinteticos} apresenta matriz de correlação dos dados:
 
 \begin{figure}[H]
     \centering

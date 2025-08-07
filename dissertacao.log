@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  6 AUG 2025 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  6 AUG 2025 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1188,6 +1188,13 @@ l.138 \include{capitulos/fundamentacao_teorica}
 
 
 (capitulos/metodologia_experimental.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 30.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -1204,15 +1211,12 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
  (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<figs/matriz_correlacao_inadimplencia.png, id=167, 4818.0pt x 4215.75pt>
+<figs/matriz_correlacao_inadimplencia.png, id=173, 4818.0pt x 4215.75pt>
 File: figs/matriz_correlacao_inadimplencia.png Graphic file (type png)
 <use figs/matriz_correlacao_inadimplencia.png>
 Package pdftex.def Info: figs/matriz_correlacao_inadimplencia.png  used on inpu
 t line 56.
 (pdftex.def)             Requested size: 386.75278pt x 338.36046pt.
-
-Underfull \vbox (badness 1931) has occurred while \output is active []
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
@@ -1257,7 +1261,7 @@ hFlowSalesRatio\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 freeCashFlowOperatingCash
 FlowRatio 
  []
 
-<figs/Correlacoes_Corporate_Credit_Rating.png, id=188, 1445.4pt x 1300.86pt>
+<figs/Correlacoes_Corporate_Credit_Rating.png, id=198, 1445.4pt x 1300.86pt>
 File: figs/Correlacoes_Corporate_Credit_Rating.png Graphic file (type png)
 <use figs/Correlacoes_Corporate_Credit_Rating.png>
 Package pdftex.def Info: figs/Correlacoes_Corporate_Credit_Rating.png  used on 
@@ -1301,7 +1305,7 @@ yMultiplier\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 ebitPerRevenue\T1/lmr/m/n/12
 (-20) , \T1/lmtt/m/n/12 operatingCashFlowPerShare
  []
 
-<figs/matriz_correlacao_dados_sinteticos.png, id=195, 4818.0pt x 4215.75pt>
+<figs/matriz_correlacao_dados_sinteticos.png, id=206, 4818.0pt x 4215.75pt>
 File: figs/matriz_correlacao_dados_sinteticos.png Graphic file (type png)
 <use figs/matriz_correlacao_dados_sinteticos.png>
 Package pdftex.def Info: figs/matriz_correlacao_dados_sinteticos.png  used on i
@@ -1353,26 +1357,27 @@ Package rerunfilecheck Info: File `dissertacao.brf' has not changed.
 (rerunfilecheck)             Checksum: F977774FC8C50AAB7CE28890A28CD63A;789.
  ) 
 Here is how much of TeX's memory you used:
- 21291 strings out of 474486
- 359149 string characters out of 5743756
+ 21374 strings out of 474486
+ 360277 string characters out of 5743756
  1939542 words of memory out of 5000000
- 42953 multiletter control sequences out of 15000+600000
- 623116 words of font info for 156 fonts, out of 8000000 for 9000
+ 42999 multiletter control sequences out of 15000+600000
+ 642539 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,107p,1229b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 ><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-<C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
-<C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-<C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb>
-<C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb>
-<C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pf
-b><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pf
-b>
-Output written on dissertacao.pdf (26 pages, 3600242 bytes).
+<C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C
+:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/
+Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/
+Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
+Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/
+Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/
+Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C
+:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on dissertacao.pdf (26 pages, 3650815 bytes).
 PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
- 37541 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 47781 words of extra memory for PDF output out of 51595 (max. 10000000)
 

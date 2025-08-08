@@ -23,6 +23,27 @@ Para atingir os objetivos deste trabalho, serão utilizados três conjuntos de d
     \item \textbf{Conjunto de dados sintéticos}: Conjunto de dados gerado com a biblioteca Scikit-learn.
 \end{enumerate}
 
+A Tabela ~\ref{tab:resumo_datasets} apresenta um resumo dos conjuntos de dados:
+
+
+\begin{table}[H]
+	\centering
+	\caption{Resumo dos datasets utilizados no experimento}
+	\label{tab:resumo_datasets}
+	\resizebox{\linewidth}{!}{%
+		\begin{tabular}{lcccc}
+			\hline
+			\textbf{Dataset} & \textbf{Qtd. de instâncias} & \textbf{Qtd. de colunas} & \textbf{Qtd. de classes} & \textbf{Desbalanceado?} \\
+			\hline
+			Default of Credit Card Clients & 30.000 & 25 & 2 & Sim (77,9\% classe 0) \\
+			Corporate Credit Rating         & 2.029  & 31 & 10 & Sim (76,8\% em BBB, BB e A) \\
+			Conjunto de Dados Sintéticos             & 100.000 & 21 & 2 & Não (balanceado) \\
+			\hline
+		\end{tabular}
+	}
+\end{table}
+
+
 A seguir serão apresentados mais detalhes sobre os conjuntos de dados.
 
 \subsection{Default of Credit Card Clients}
@@ -66,6 +87,7 @@ O \textit{Corporate Credit Rating Dataset}, disponível no Kaggle \footnote{\url
 
 As variáveis preditoras podem ser agrupadas da seguinte forma:
 
+\begin{sloppypar}
 \begin{itemize}
     \item \textbf{Índices de Liquidez:} \texttt{currentRatio}, \texttt{quickRatio}, \texttt{cashRatio}, \texttt{daysOfSalesOutstanding};
     \item \textbf{Indicadores de Lucratividade:} \texttt{grossProfitMargin}, \texttt{operatingProfitMargin}, \texttt{pretaxProfitMargin}, \texttt{netProfitMargin}, \texttt{effectiveTaxRate}, \texttt{returnOnAssets}, \texttt{returnOnEquity}, \texttt{returnOnCapitalEmployed};
@@ -74,6 +96,7 @@ As variáveis preditoras podem ser agrupadas da seguinte forma:
     \item \textbf{Indicadores de Fluxo de Caixa:} \texttt{operatingCashFlowPerShare}, \texttt{freeCashFlowPerShare}, \texttt{cashPerShare}, \texttt{operatingCashFlowSalesRatio}, \texttt{freeCashFlowOperatingCashFlowRatio}
 \end{itemize}
 A variável alvo, \texttt{Rating}, representa a classificação de crédito das empresas. Observa-se que esta variável está desbalanceada, com concentração significativa em poucas classes, especialmente nas categorias \textbf{BBB}, \textbf{BB} e \textbf{A}, que juntas correspondem a mais de 75\% dos registros. A Tabela~\ref{tab:dist_rating} apresenta a distribuição detalhada da variável alvo.
+\end{sloppypar}
 
 \begin{table}[H]
 \centering
@@ -108,8 +131,10 @@ A seguir na Figura~\ref{fig:matriz_correlacao_corporate_credit_rating}, apresent
     \label{fig:matriz_correlacao_corporate_credit_rating}
 \end{figure}
 
-A partir da matriz de correlação apresentada na Figura~\ref{fig:matriz_correlacao_corporate_credit_rating}, observa-se colinearidade entre boa parte das variáveis. Destacam-se as variáveis \texttt{netProfitMargin}, \texttt{pretaxProfitMargin}, \texttt{grossProfitMargin}, \texttt{operatingProfitMargin}, \texttt{returnOnAssets}, \texttt{returnOnCapitalEmployed}, \texttt{returnOnEquity}, \texttt{assetTurnover}, \texttt{fixedAssetTurnover}, \texttt{debtEquityRatio}, \texttt{freeCashFlowPerShare}, \texttt{cashPerShare}, \texttt{companyEquityMultiplier}, \texttt{ebitPerRevenue}, \texttt{operatingCashFlowPerShare} e \texttt{operatingCashFlowSalesRatio}, que possuem correlação maior ou igual a 0,8 com uma ou mais variáveis preditoras.
 
+\begin{sloppypar}
+A partir da matriz de correlação apresentada na Figura~\ref{fig:matriz_correlacao_corporate_credit_rating}, observa-se colinearidade entre boa parte das variáveis. Destacam-se as variáveis \texttt{netProfitMargin}, \texttt{pretaxProfitMargin}, \texttt{grossProfitMargin}, \texttt{operatingProfitMargin}, \texttt{returnOnAssets}, \texttt{returnOnCapitalEmployed}, \texttt{returnOnEquity}, \texttt{assetTurnover}, \texttt{fixedAssetTurnover}, \texttt{debtEquityRatio}, \texttt{freeCashFlowPerShare}, \texttt{cashPerShare}, \texttt{companyEquityMultiplier}, \texttt{ebitPerRevenue}, \texttt{operatingCashFlowPerShare} e \texttt{operatingCashFlowSalesRatio}, que possuem correlação maior ou igual a 0,8 com uma ou mais variáveis preditoras.
+\end{sloppypar}
 
 
 \subsection{Conjunto de dados sintéticos}
@@ -126,11 +151,12 @@ A Figura~\ref{fig:matriz_correlacao_dados_sinteticos} apresenta matriz de correl
 
 
 \section{Configuração do experimento}\label{sec:cofiguracao_experimentos}
-Os conjuntos de dados serão submetidos a um pré-processamento, caso necessário. Em seguida, serão divididos em dados de treino (70\%) e teste (30\%). Para cada conjunto, serão treinados e avaliados quatro algoritmos de classificação: SVM, Random Forest, LightGBM e XGBoost. Esses algoritmos foram escolhidos por serem amplamente utilizados, não serem naturalmente explicáveis e atenderem às limitações de recursos computacionais disponíveis para este trabalho. A implementação será realizada com a biblioteca Scikit-learn, utilizando inicialmente os parâmetros padrão de cada modelo.
+Os conjuntos de dados serão divididos em dados de treino (70\%) e teste (30\%). Para cada conjunto, serão treinados e avaliados quatro algoritmos de classificação: SVM, Random Forest, LightGBM e XGBoost. Esses algoritmos foram escolhidos por serem amplamente utilizados, não serem naturalmente explicáveis e atenderem às limitações de recursos computacionais disponíveis para este trabalho. A implementação será realizada com a biblioteca Scikit-learn \cite{scikit-learn}, utilizando inicialmente os parâmetros padrão de cada modelo.
 
-A performance dos algoritmos será avaliada com as métricas F1-score e ROC AUC, que permitem uma avaliação equilibrada do desempenho geral do modelo, sem penalizar excessivamente falsos negativos ou falsos positivos. Após o treinamento, serão aplicadas as técnicas SHAP e LIME para gerar explicações sobre as decisões dos modelos. A estabilidade das explicações será avaliada por meio da métrica NMR (Normalized Movement Rate).
+O desempenho preditivo dos algoritmos será avaliado com as métricas F1-score e ROC AUC, também disponíveis na biblioteca Scikit-learn \cite{scikit-learn}. Essas métricas permitem uma avaliação equilibrada do desempenho geral do modelo, sem penalizar excessivamente falsos negativos ou falsos positivos. Após o treinamento e avaliação, serão aplicadas as técnicas SHAP e LIME, por meio das bibliotecas shap e lime, respectivamente, para gerar explicações sobre as decisões dos modelos. A estabilidade das explicações será avaliada por meio da métrica NMR (\textit{Normalized Movement Rate}).
 
 Posteriormente, o experimento será repetido utilizando dados transformados por PCA e dados com variáveis redundantes removidas, permitindo comparar o impacto da colinearidade na estabilidade das explicações geradas.
+
 
 
 

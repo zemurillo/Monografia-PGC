@@ -45,6 +45,11 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1177/0008125619864925}.}
 Dispon{\'\i}vel em:
   \url{https://ijcsm.researchcommons.org/ijcsm/vol3/iss1/13}.}
 
+\bibitem[Pedregosa et al. 2011]{scikit-learn}
+\abntrefinfo{Pedregosa et al.}{PEDREGOSA et al.}{2011}
+{PEDREGOSA, F. et al. Scikit-learn: Machine learning in {P}ython.
+\emph{Journal of Machine Learning Research}, v.~12, p. 2825--2830, 2011.}
+
 \bibitem[Salih et al. 2022]{Salih2022Investigating}
 \abntrefinfo{Salih et al.}{SALIH et al.}{2022}
 {SALIH, A. et al. Investigating explainable artificial intelligence for

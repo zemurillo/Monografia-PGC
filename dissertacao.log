@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  6 AUG 2025 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  7 AUG 2025 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1130,7 +1130,7 @@ l.12 \end{resumo}
 ] [6
 
 ] (dissertacao.lot
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
 .
 
 (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
@@ -1189,25 +1189,25 @@ l.138 \include{capitulos/fundamentacao_teorica}
 
 (capitulos/metodologia_experimental.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 30.
+(Font)              <10> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 30.
+(Font)              <7> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 30.
+(Font)              <5> on input line 51.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 
+l.52 
       [5
 
 
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-5.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
+6.
  (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1215,116 +1215,88 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: figs/matriz_correlacao_inadimplencia.png Graphic file (type png)
 <use figs/matriz_correlacao_inadimplencia.png>
 Package pdftex.def Info: figs/matriz_correlacao_inadimplencia.png  used on inpu
-t line 56.
+t line 77.
 (pdftex.def)             Requested size: 386.75278pt x 338.36046pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 
+l.81 
       [6{C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1
 .enc}]
-Overfull \hbox (35.6612pt too wide) in paragraph at lines 70--71
-[]\T1/lmr/bx/n/12 (-20) Õndices de Li-qui-dez: \T1/lmtt/m/n/12 currentRatio\T1/
-lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 quickRatio\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/
-n/12 cashRatio\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 daysOfSalesOutstanding\T1/
-lmr/m/n/12 (-20) ; 
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]\T1/lmr/bx/n/12 (+20) Õndices de Li-qui-dez: \T1/lmtt/m/n/12 currentRatio\T1/
+lmr/m/n/12 (+20) , \T1/lmtt/m/n/12 quickRatio\T1/lmr/m/n/12 (+20) , \T1/lmtt/m/
+n/12 cashRatio\T1/lmr/m/n/12 (+20) ,
  []
 
 
-Overfull \hbox (74.6598pt too wide) in paragraph at lines 71--72
-\T1/lmtt/m/n/12 pretaxProfitMargin\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 netPro
-fitMargin\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 effectiveTaxRate\T1/lmr/m/n/12 
-(-20) , \T1/lmtt/m/n/12 returnOnAssets\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 re
-turnOnEquity\T1/lmr/m/n/12 (-20) ,
- []
+Underfull \vbox (badness 2111) has occurred while \output is active []
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72     \item \textbf
-                      {√çndices de Endividamento:} \texttt{debtRatio}, \text...
+l.93     \item \textbf
+                      {Indicadores de Lucratividade:} \texttt{grossProfitMar...
 [7 <./figs/matriz_correlacao_inadimplencia.png>]
-Overfull \hbox (36.94142pt too wide) in paragraph at lines 74--75
-[]\T1/lmr/bx/n/12 (-20) Indicadores de Fluxo de Caixa: \T1/lmtt/m/n/12 operatin
-gCashFlowPerShare\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 freeCashFlowPerShare\T1
-/lmr/m/n/12 (-20) ,
+Underfull \hbox (badness 1117) in paragraph at lines 93--94
+\T1/lmtt/m/n/12 pretaxProfitMargin\T1/lmr/m/n/12 (+20) , \T1/lmtt/m/n/12 netPro
+fitMargin\T1/lmr/m/n/12 (+20) , \T1/lmtt/m/n/12 effectiveTaxRate\T1/lmr/m/n/12 
+(+20) , \T1/lmtt/m/n/12 returnOnAssets\T1/lmr/m/n/12 (+20) ,
  []
 
 
-Overfull \hbox (36.77211pt too wide) in paragraph at lines 74--75
-\T1/lmtt/m/n/12 cashPerShare\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 operatingCas
-hFlowSalesRatio\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 freeCashFlowOperatingCash
-FlowRatio 
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]\T1/lmr/bx/n/12 (+20) Indicadores de Fluxo de Caixa: \T1/lmtt/m/n/12 operatin
+gCashFlowPerShare\T1/lmr/m/n/12 (+20) ,
  []
 
-<figs/Correlacoes_Corporate_Credit_Rating.png, id=198, 1445.4pt x 1300.86pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+\T1/lmtt/m/n/12 freeCashFlowPerShare\T1/lmr/m/n/12 (+20) , \T1/lmtt/m/n/12 cash
+PerShare\T1/lmr/m/n/12 (+20) , \T1/lmtt/m/n/12 operatingCashFlowSalesRatio\T1/l
+mr/m/n/12 (+20) ,
+ []
+
+<figs/Correlacoes_Corporate_Credit_Rating.png, id=201, 1445.4pt x 1300.86pt>
 File: figs/Correlacoes_Corporate_Credit_Rating.png Graphic file (type png)
 <use figs/Correlacoes_Corporate_Credit_Rating.png>
 Package pdftex.def Info: figs/Correlacoes_Corporate_Credit_Rating.png  used on 
-input line 106.
+input line 129.
 (pdftex.def)             Requested size: 386.75278pt x 348.08083pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4569) has occurred while \output is active []
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 
+l.133 
        [8]
-Overfull \hbox (25.42928pt too wide) in paragraph at lines 111--112
-\T1/lmr/m/n/12 (-20) en-tre boa parte das va-ri·-veis. Destacam-se as va-ri·-ve
-is \T1/lmtt/m/n/12 netProfitMargin\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 pretax
-ProfitMargin\T1/lmr/m/n/12 (-20) ,
- []
-
-
-Overfull \hbox (27.12401pt too wide) in paragraph at lines 111--112
-\T1/lmtt/m/n/12 grossProfitMargin\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 operati
-ngProfitMargin\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 returnOnAssets\T1/lmr/m/n/
-12 (-20) , \T1/lmtt/m/n/12 returnOnCapitalEmployed\T1/lmr/m/n/12 (-20) ,
- []
-
-
-Overfull \hbox (63.81012pt too wide) in paragraph at lines 111--112
-\T1/lmtt/m/n/12 returnOnEquity\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 assetTurno
-ver\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 fixedAssetTurnover\T1/lmr/m/n/12 (-20
-) , \T1/lmtt/m/n/12 debtEquityRatio\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 freeC
-ashFlowPerShare\T1/lmr/m/n/12 (-20) ,
- []
-
-
-Overfull \hbox (19.38351pt too wide) in paragraph at lines 111--112
-\T1/lmtt/m/n/12 cashPerShare\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 companyEquit
-yMultiplier\T1/lmr/m/n/12 (-20) , \T1/lmtt/m/n/12 ebitPerRevenue\T1/lmr/m/n/12 
-(-20) , \T1/lmtt/m/n/12 operatingCashFlowPerShare
- []
-
-<figs/matriz_correlacao_dados_sinteticos.png, id=206, 4818.0pt x 4215.75pt>
+<figs/matriz_correlacao_dados_sinteticos.png, id=209, 4818.0pt x 4215.75pt>
 File: figs/matriz_correlacao_dados_sinteticos.png Graphic file (type png)
 <use figs/matriz_correlacao_dados_sinteticos.png>
 Package pdftex.def Info: figs/matriz_correlacao_dados_sinteticos.png  used on i
-nput line 122.
+nput line 147.
 (pdftex.def)             Requested size: 386.75278pt x 338.36046pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 \end{figure}
-                   [9 <./figs/Correlacoes_Corporate_Credit_Rating.png>])
+l.150 \end{figure}
+                   [9 <./figs/Correlacoes_Corporate_Credit_Rating.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.140 \include{capitulos/metodologia_experimental}
-                                                   [10 <./figs/matriz_correlaca
-o_dados_sinteticos.png>] [11] (dissertacao.bbl (dissertacao.brf)
+l.159 
+       [10 <./figs/matriz_correlacao_dados_sinteticos.png>]) [11]
+(dissertacao.bbl (dissertacao.brf)
 \tf@brf=\write5
 \openout5 = `dissertacao.brf'.
 
@@ -1354,16 +1326,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `dissertacao.brf' has not changed.
-(rerunfilecheck)             Checksum: F977774FC8C50AAB7CE28890A28CD63A;789.
+(rerunfilecheck)             Checksum: FF6AB8E7D9FE6E72FF394221567DAF9B;887.
  ) 
 Here is how much of TeX's memory you used:
- 21374 strings out of 474486
- 360277 string characters out of 5743756
- 1939542 words of memory out of 5000000
- 42999 multiletter control sequences out of 15000+600000
- 642539 words of font info for 187 fonts, out of 8000000 for 9000
+ 21390 strings out of 474486
+ 360568 string characters out of 5743756
+ 1940542 words of memory out of 5000000
+ 43011 multiletter control sequences out of 15000+600000
+ 642630 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,107p,1229b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,107p,1229b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 ><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
@@ -1375,9 +1347,9 @@ Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/
 Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/
 Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C
 :/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on dissertacao.pdf (26 pages, 3650815 bytes).
+Output written on dissertacao.pdf (26 pages, 3653896 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
+ 384 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  47781 words of extra memory for PDF output out of 51595 (max. 10000000)
 

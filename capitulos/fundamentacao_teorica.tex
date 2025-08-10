@@ -8,10 +8,11 @@
 
 
 
-%\section{Colineariedade}\label{sec:colineariedade}
-%\lipsum[35]
+\section{Colinearidade}\label{sec:colineariedade}
 
+Colinearidade, também chamada de multicolinearidade, ocorre quando duas ou mais variáveis preditoras de um conjunto de dados apresentam uma relação linear \cite{Carsten2012Collinearity}, ou seja, é possível expressar uma variável como combinação linear de outra. Esse problema afeta diversos algoritmos amplamente utilizados em aprendizado de máquina, como Regressão Linear e Regressão Logística, além de impactar técnicas de Inteligência Artificial Explicável (XAI) \cite{salih2025a_perpective}.
 
+Um indicador simples e frequentemente utilizado para detectar colinearidade é a correlação de Pearson entre variáveis preditoras. O coeficiente de Pearson ($r$) mede o grau de associação linear entre duas variáveis, variando de $-1$ a 1: valores próximos de 1 indicam forte correlação positiva; valores próximos de $-1$ indicam forte correlação negativa; e valores próximos de 0 indicam ausência de associação linear \cite{PearsonCorrelationCoefficient}. Quanto maior o valor absoluto de $r$, maior é a dependência linear entre as variáveis, sugerindo a presença de colinearidade. \citeonline{Carsten2012Collinearity} recomenda o limiar $|r| \geq 0{,}7$ como indicativo de quando a colinearidade começa a distorcer de forma significativa as estimativas dos modelos.
 
 %\section{Inteligência Artificial Explicável}\label{sec:xai}
 %\lipsum[35]

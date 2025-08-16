@@ -153,9 +153,12 @@ A Figura~\ref{fig:matriz_correlacao_dados_sinteticos} apresenta matriz de correl
 \section{Configuração do experimento}\label{sec:cofiguracao_experimentos}
 Os conjuntos de dados serão divididos em dados de treino (70\%) e teste (30\%). Para cada conjunto, serão treinados e avaliados quatro algoritmos de classificação: SVM, Random Forest, LightGBM e XGBoost. Esses algoritmos foram escolhidos por serem amplamente utilizados, não serem naturalmente explicáveis e atenderem às limitações de recursos computacionais disponíveis para este trabalho. A implementação será realizada com a biblioteca Scikit-learn \cite{scikit-learn}, utilizando inicialmente os parâmetros padrão de cada modelo.
 
-O desempenho preditivo dos algoritmos será avaliado com as métricas F1-score e ROC AUC, também disponíveis na biblioteca Scikit-learn \cite{scikit-learn}. Essas métricas permitem uma avaliação equilibrada do desempenho geral do modelo, sem penalizar excessivamente falsos negativos ou falsos positivos. Após o treinamento e avaliação, serão aplicadas as técnicas SHAP e LIME, por meio das bibliotecas shap e lime, respectivamente, para gerar explicações sobre as decisões dos modelos. A estabilidade das explicações será avaliada por meio da métrica NMR (\textit{Normalized Movement Rate}).
+O desempenho preditivo dos algoritmos será avaliado com as métricas F1-score e Acurácia Balanceada, também disponíveis na biblioteca Scikit-learn. Essas métricas permitem uma avaliação equilibrada do desempenho geral do modelo, sem penalizar excessivamente falsos negativos ou falsos positivos. Após o treinamento e avaliação, serão aplicadas as técnicas SHAP e LIME, por meio das bibliotecas shap \footnote{\url{https://shap.readthedocs.io/en/latest/}} e lime \footnote{\url{https://lime-ml.readthedocs.io/en/latest/}}, respectivamente, para gerar explicações sobre as decisões dos modelos. A estabilidade das explicações será avaliada por meio da métrica NMR (\textit{Normalized Movement Rate}).
 
 Posteriormente, o experimento será repetido utilizando dados transformados por PCA e dados com variáveis redundantes removidas, permitindo comparar o impacto da colinearidade na estabilidade das explicações geradas.
+
+
+
 
 
 

@@ -5,14 +5,48 @@
 
 \chapter[Fundamentação Teórica]{Fundamentação Teórica}
 
-
-
-
 \section{Colinearidade}\label{sec:colineariedade}
 
-Colinearidade, também chamada de multicolinearidade, ocorre quando duas ou mais variáveis preditoras de um conjunto de dados apresentam uma relação linear \cite{Carsten2012Collinearity}, ou seja, é possível expressar uma variável como combinação linear de outra. Esse problema afeta diversos algoritmos amplamente utilizados em aprendizado de máquina, como Regressão Linear e Regressão Logística, além de impactar técnicas de Inteligência Artificial Explicável (XAI) \cite{salih2025a_perpective}.
+Colinearidade é um fenômeno que ocorre quando duas ou mais variáveis preditoras de um modelo estatístico apresentam uma relação linear significativa \cite{Carsten2012Collinearity}, de modo que uma variável pode ser aproximadamente expressa como combinação linear das demais. No caso de colinearidade exata, essa relação é perfeita, ou seja, uma variável é completamente determinada pelas outras.
 
-Um indicador simples e frequentemente utilizado para detectar colinearidade é a correlação de Pearson entre variáveis preditoras. O coeficiente de Pearson ($r$) mede o grau de associação linear entre duas variáveis, variando de $-1$ a 1: valores próximos de 1 indicam forte correlação positiva; valores próximos de $-1$ indicam forte correlação negativa; e valores próximos de 0 indicam ausência de associação linear \cite{PearsonCorrelationCoefficient}. Quanto maior o valor absoluto de $r$, maior é a dependência linear entre as variáveis, sugerindo a presença de colinearidade. \citeonline{Carsten2012Collinearity} recomenda o limiar $|r| \geq 0{,}7$ como indicativo de quando a colinearidade começa a distorcer de forma significativa as estimativas dos modelos.
+Formalmente, considera-se que existe colinearidade entre duas variáveis $X_i$ e $X_j$ quando existem coeficientes $\alpha$ e $\beta$ tais que:
+\begin{equation}
+	X_j \approx \alpha X_i + \beta,
+\end{equation}
+sendo que, na colinearidade perfeita, a relação é exata:
+\begin{equation}
+	X_j = \alpha X_i + \beta.
+\end{equation}
+
+Esse fenômeno reduz a independência entre as variáveis preditoras e pode afetar tanto modelos estatísticos clássicos, como Regressão Linear e Regressão Logística, quanto técnicas modernas de Inteligência Artificial Explicável (XAI) \cite{salih2025a_perpective}.
+
+Segundo \citeonline{Carsten2012Collinearity}, colinearidade também é chamada de multicolinearidade. No entanto, de acordo com \citeonline{kim2019multicollinearity}, colinearidade refere-se ao caso em que uma variável apresenta forte relação linear com outra, enquanto multicolinearidade ocorre quando uma variável apresenta forte relação linear com duas ou mais variáveis.
+
+Um indicador simples e frequentemente utilizado para detectar colinearidade é o coeficiente de correlação de Pearson entre pares de variáveis preditoras. O coeficiente de correlação de Pearson ($r$) mede o grau de associação linear entre duas variáveis $X$ e $Y$ e é definido como:
+\begin{equation}
+	r = \frac{\text{Cov}(X,Y)}{\sigma_X \, \sigma_Y},
+\end{equation}
+onde $\text{Cov}(X,Y)$ é a covariância entre $X$ e $Y$, definida por:
+\begin{equation}
+	\text{Cov}(X,Y) = \frac{1}{n-1} \sum_{k=1}^{n} (X_k - \bar{X})(Y_k - \bar{Y}),
+\end{equation}
+e $\sigma_X$ e $\sigma_Y$ representam os respectivos desvios-padrão das variáveis $X$ e $Y$.
+
+O valor de $r$ varia no intervalo $[-1,1]$: valores próximos de $1$ indicam forte correlação linear positiva; valores próximos de $-1$ indicam forte correlação linear negativa; e valores próximos de $0$ indicam ausência de dependência linear \cite{PearsonCorrelationCoefficient}. Quanto maior o valor absoluto de $r$, maior é a dependência linear entre as variáveis, sugerindo a presença de colinearidade. De forma particular, quando $|r| = 1$, temos uma situação de colinearidade perfeita, em que uma variável é completamente determinada pela outra, e quando $|r| = 0$ temos a ausência de qualquer nível de colinearidade \cite{kim2019multicollinearity}. \citeonline{Carsten2012Collinearity} recomenda o limiar $|r| \geq 0{,}7$ como indicativo de quando a colinearidade começa a distorcer significativamente as estimativas dos modelos.
+
+Em dados do mundo real, sempre existe algum grau de colinearidade entre variáveis preditoras, que pode surgir por diferentes motivos \cite{Carsten2012Collinearity}:
+
+\begin{itemize}
+	\item \textbf{Colinearidade intrínseca:} ocorre quando variáveis colineares são diferentes manifestações de um mesmo processo subjacente, muitas vezes não mensurável (variável latente). Por exemplo, o peso e a altura de uma pessoa estão fortemente relacionados, pois ambos são representações do tamanho corporal. Variáveis assim tendem a apresentar alta correlação linear entre si.
+	
+	\item \textbf{Colinearidade composicional:} ocorre em dados em que as variáveis representam partes de um todo e, portanto, não são independentes entre si. Por exemplo, se medirmos a proporção de três tipos de frutas em uma cesta (maçãs, laranjas e bananas) que sempre somam 100\%, um aumento na proporção de maçãs implica necessariamente uma diminuição na proporção de laranjas ou bananas. Esse tipo de relação gera colinearidade entre as variáveis.
+	
+	\item \textbf{Colinearidade incidental:} ocorre quando variáveis preditoras parecem colineares por acaso, por exemplo, em amostras pequenas, quando nem todas as combinações de condições possíveis estão presentes. 
+\end{itemize}
+
+
+
+
 
 %\section{Inteligência Artificial Explicável}\label{sec:xai}
 %\lipsum[35]

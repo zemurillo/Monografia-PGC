@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  9 AUG 2025 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  16 AUG 2025 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1171,7 +1171,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 
+l.36 
       [3
 
 
@@ -1179,37 +1179,40 @@ l.40
 
 {C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
 {C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
-{C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+{C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/
+Users/zemur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
+0.
+ (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 
-      [4])
+l.73 D
+      ando continuidade à discussão sobre os impactos da multicolinearidad...
+[4{C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \include{capitulos/fundamentacao_teorica}
-                                                [5]
-\openout2 = `capitulos/metodologia_experimental.aux'.
-
-
-(capitulos/metodologia_experimental.tex
+l.80 
+      [5])
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.6 \chapter
-            [Metodologia Experimental]{Metodologia Experimental} [6
+l.138 \include{capitulos/fundamentacao_teorica}
+                                                [6]
+\openout2 = `capitulos/metodologia_experimental.aux'.
 
 
-
-
-]
+(capitulos/metodologia_experimental.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1222,13 +1225,13 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.52 
-      [7]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
-6.
- (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-<figs/matriz_correlacao_inadimplencia.png, id=196, 4818.0pt x 4215.75pt>
+      [7
+
+
+
+
+]
+<figs/matriz_correlacao_inadimplencia.png, id=212, 4818.0pt x 4215.75pt>
 File: figs/matriz_correlacao_inadimplencia.png Graphic file (type png)
 <use figs/matriz_correlacao_inadimplencia.png>
 Package pdftex.def Info: figs/matriz_correlacao_inadimplencia.png  used on inpu
@@ -1240,8 +1243,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.81 
-      [8{C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1
-.enc}]
+      [8]
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 []\T1/lmr/bx/n/12 (+20) �ndices de Li-qui-dez: \T1/lmtt/m/n/12 currentRatio\T1/
 lmr/m/n/12 (+20) , \T1/lmtt/m/n/12 quickRatio\T1/lmr/m/n/12 (+20) , \T1/lmtt/m/
@@ -1278,7 +1280,7 @@ PerShare\T1/lmr/m/n/12 (+20) , \T1/lmtt/m/n/12 operatingCashFlowSalesRatio\T1/l
 mr/m/n/12 (+20) ,
  []
 
-<figs/Correlacoes_Corporate_Credit_Rating.png, id=223, 1445.4pt x 1300.86pt>
+<figs/Correlacoes_Corporate_Credit_Rating.png, id=238, 1445.4pt x 1300.86pt>
 File: figs/Correlacoes_Corporate_Credit_Rating.png Graphic file (type png)
 <use figs/Correlacoes_Corporate_Credit_Rating.png>
 Package pdftex.def Info: figs/Correlacoes_Corporate_Credit_Rating.png  used on 
@@ -1294,7 +1296,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
                    \relax 
 l.133 
        [10]
-<figs/matriz_correlacao_dados_sinteticos.png, id=231, 4818.0pt x 4215.75pt>
+<figs/matriz_correlacao_dados_sinteticos.png, id=246, 4818.0pt x 4215.75pt>
 File: figs/matriz_correlacao_dados_sinteticos.png Graphic file (type png)
 <use figs/matriz_correlacao_dados_sinteticos.png>
 Package pdftex.def Info: figs/matriz_correlacao_dados_sinteticos.png  used on i
@@ -1330,33 +1332,41 @@ AED: lastpage setting LastPage
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `dissertacao.brf' has not changed.
-(rerunfilecheck)             Checksum: F282456C7AB57E300074C5A2CF1F4E52;1128.
+
+
+Package rerunfilecheck Warning: File `dissertacao.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `dissertacao.brf':
+(rerunfilecheck)             Before: 14F955B1C83461EC68C1C60BC0E844D8;1387
+(rerunfilecheck)             After:  8FE670E666881635247633D99D11A840;1338.
  ) 
 Here is how much of TeX's memory you used:
- 21420 strings out of 474486
- 361302 string characters out of 5743756
- 1940542 words of memory out of 5000000
- 43031 multiletter control sequences out of 15000+600000
- 642759 words of font info for 189 fonts, out of 8000000 for 9000
+ 21464 strings out of 474486
+ 362015 string characters out of 5743756
+ 1941542 words of memory out of 5000000
+ 43044 multiletter control sequences out of 15000+600000
+ 646730 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,107p,1229b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,107p,1229b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
+b><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pf
 b><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pf
-b><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
-><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-<C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C
-:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/
-Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/
-Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/
-Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/
-Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/
-Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C
-:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C
-:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on dissertacao.pdf (28 pages, 3673485 bytes).
+b><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb
+><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb>
+<C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><
+C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:
+/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
+sers/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/U
+sers/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/U
+sers/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/U
+sers/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/U
+sers/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:
+/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
+/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on dissertacao.pdf (28 pages, 3695898 bytes).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 47789 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 467 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 49837 words of extra memory for PDF output out of 51595 (max. 10000000)
 

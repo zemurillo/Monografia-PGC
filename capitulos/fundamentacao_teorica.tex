@@ -7,41 +7,41 @@
 
 \section{Colinearidade}\label{sec:colineariedade}
 
-Colinearidade é um fenômeno que ocorre quando duas ou mais variáveis preditoras de um modelo estatístico apresentam uma relação linear significativa \cite{Carsten2012Collinearity}, de modo que uma variável pode ser aproximadamente expressa como combinação linear das demais. No caso de colinearidade exata, essa relação é perfeita, ou seja, uma variável é completamente determinada pelas outras.
+Colinearidade é um fenômeno que ocorre quando duas ou mais variáveis preditoras de um modelo estatístico apresentam uma relação linear significativa \cite{Carsten2012Collinearity}, isto é, quando estão altamente correlacionadas \cite{Das2019Analysis,Vatcheva2016Multicollinearity,Streukens2023Multicollinearity}, de modo que uma variável pode ser aproximadamente expressa como combinação linear das demais. No caso de colinearidade exata, essa relação é perfeita, ou seja, uma variável é completamente determinada pelas outras.
 
 Formalmente, considera-se que existe colinearidade entre duas variáveis $X_i$ e $X_j$ quando existem coeficientes $\alpha$ e $\beta$ tais que:
 \begin{equation}
 	X_j \approx \alpha X_i + \beta,
 \end{equation}
-sendo que, na colinearidade perfeita, a relação é exata:
+enquanto, na colinearidade perfeita, a relação é exata:
 \begin{equation}
 	X_j = \alpha X_i + \beta.
 \end{equation}
 
-Esse fenômeno reduz a independência entre as variáveis preditoras e pode afetar tanto modelos estatísticos clássicos, como Regressão Linear e Regressão Logística, quanto técnicas modernas de Inteligência Artificial Explicável (XAI) \cite{salih2025a_perpective}.
+Esse fenômeno reduz a independência entre as variáveis preditoras, dificultando a identificação de seus efeitos individuais, e pode afetar tanto modelos estatísticos clássicos, como Regressão Linear e Regressão Logística, quanto técnicas modernas de Inteligência Artificial Explicável (XAI) \cite{salih2025a_perpective}.
 
-Segundo \citeonline{Carsten2012Collinearity}, colinearidade também é chamada de multicolinearidade. No entanto, de acordo com \citeonline{kim2019multicollinearity}, colinearidade refere-se ao caso em que uma variável apresenta forte relação linear com outra, enquanto multicolinearidade ocorre quando uma variável apresenta forte relação linear com duas ou mais variáveis.
+Segundo \citeonline{Carsten2012Collinearity} e \citeonline{weisberg2013applied}, colinearidade e multicolinearidade podem ser tratados como sinônimos. Já \citeonline{kim2019multicollinearity} distingue os termos: colinearidade refere-se ao caso em que uma variável apresenta forte relação linear com outra, enquanto multicolinearidade ocorre quando uma variável possui forte relação linear com duas ou mais variáveis. Neste trabalho, os termos serão utilizados de forma equivalente, privilegiando a denominação colinearidade.
 
-Um indicador simples e frequentemente utilizado para detectar colinearidade é o coeficiente de correlação de Pearson entre pares de variáveis preditoras. O coeficiente de correlação de Pearson ($r$) mede o grau de associação linear entre duas variáveis $X$ e $Y$ e é definido como:
+Um indicador simples e frequentemente utilizado para detectar colinearidade é o coeficiente de correlação de Pearson entre pares de variáveis preditoras. O coeficiente de correlação de Pearson ($r$) mede o grau de associação linear entre duas variáveis $X$ e $Y$, sendo definido como:
 \begin{equation}
 	r = \frac{\text{Cov}(X,Y)}{\sigma_X \, \sigma_Y},
 \end{equation}
-onde $\text{Cov}(X,Y)$ é a covariância entre $X$ e $Y$, definida por:
+onde $\text{Cov}(X,Y)$ é a covariância entre $X$ e $Y$, dada por:
 \begin{equation}
 	\text{Cov}(X,Y) = \frac{1}{n-1} \sum_{k=1}^{n} (X_k - \bar{X})(Y_k - \bar{Y}),
 \end{equation}
 e $\sigma_X$ e $\sigma_Y$ representam os respectivos desvios-padrão das variáveis $X$ e $Y$.
 
-O valor de $r$ varia no intervalo $[-1,1]$: valores próximos de $1$ indicam forte correlação linear positiva; valores próximos de $-1$ indicam forte correlação linear negativa; e valores próximos de $0$ indicam ausência de dependência linear \cite{PearsonCorrelationCoefficient}. Quanto maior o valor absoluto de $r$, maior é a dependência linear entre as variáveis, sugerindo a presença de colinearidade. De forma particular, quando $|r| = 1$, temos uma situação de colinearidade perfeita, em que uma variável é completamente determinada pela outra, e quando $|r| = 0$ temos a ausência de qualquer nível de colinearidade \cite{kim2019multicollinearity}. \citeonline{Carsten2012Collinearity} recomenda o limiar $|r| \geq 0{,}7$ como indicativo de quando a colinearidade começa a distorcer significativamente as estimativas dos modelos.
+O valor de $r$ varia no intervalo $[-1,1]$: valores próximos de $1$ indicam forte correlação linear positiva; valores próximos de $-1$ indicam forte correlação linear negativa; e valores próximos de $0$ indicam ausência de dependência linear \cite{PearsonCorrelationCoefficient}. Quanto maior o valor absoluto de $r$, maior a dependência linear entre as variáveis, sugerindo a presença de colinearidade. Em particular, quando $|r| = 1$, há colinearidade perfeita, enquanto $|r| = 0$ indica ausência de qualquer relação linear \cite{kim2019multicollinearity}. Como regra prática, \citeonline{Carsten2012Collinearity} recomenda considerar $|r| \geq 0{,}7$ como um limiar a partir do qual a colinearidade pode distorcer significativamente as estimativas dos modelos. Por outro lado, \citeonline{Streukens2023Multicollinearity} sugere que valores a partir de $|r| \geq 0{,}3$ já podem indicar sinais relevantes de colinearidade. Complementarmente, \citeonline{Vatcheva2016Multicollinearity} utilizou diferentes graus de correlação de Pearson para caracterizar a intensidade da colinearidade: valores fracos (\(0 \leq |r| < 0,3\)), moderados (\(0,3 \leq |r| < 0,7\)) e fortes (\(|r| \geq 0,7\)).
 
-Em dados do mundo real, sempre existe algum grau de colinearidade entre variáveis preditoras, que pode surgir por diferentes motivos \cite{Carsten2012Collinearity}:
+Na prática, algum grau de colinearidade entre variáveis preditoras é praticamente inevitável, podendo surgir por diferentes motivos \cite{Carsten2012Collinearity}:
 
 \begin{itemize}
-	\item \textbf{Colinearidade intrínseca:} ocorre quando variáveis colineares são diferentes manifestações de um mesmo processo subjacente, muitas vezes não mensurável (variável latente). Por exemplo, o peso e a altura de uma pessoa estão fortemente relacionados, pois ambos são representações do tamanho corporal. Variáveis assim tendem a apresentar alta correlação linear entre si.
+	\item \textbf{Colinearidade intrínseca:} ocorre quando variáveis colineares são diferentes manifestações de um mesmo processo subjacente, muitas vezes não mensurável (variável latente). Por exemplo, peso e altura de uma pessoa estão fortemente relacionados, pois ambos refletem o tamanho corporal.
 	
-	\item \textbf{Colinearidade composicional:} ocorre em dados em que as variáveis representam partes de um todo e, portanto, não são independentes entre si. Por exemplo, se medirmos a proporção de três tipos de frutas em uma cesta (maçãs, laranjas e bananas) que sempre somam 100\%, um aumento na proporção de maçãs implica necessariamente uma diminuição na proporção de laranjas ou bananas. Esse tipo de relação gera colinearidade entre as variáveis.
+	\item \textbf{Colinearidade composicional:} surge em dados em que as variáveis representam partes de um todo e, portanto, não são independentes entre si. Por exemplo, se medirmos a proporção de três tipos de frutas em uma cesta (maçãs, laranjas e bananas) que somam sempre 100\%, um aumento na proporção de maçãs implica necessariamente a diminuição da proporção de laranjas ou bananas.
 	
-	\item \textbf{Colinearidade incidental:} ocorre quando variáveis preditoras parecem colineares por acaso, por exemplo, em amostras pequenas, quando nem todas as combinações de condições possíveis estão presentes. 
+	\item \textbf{Colinearidade incidental:} ocorre quando variáveis preditoras parecem colineares apenas por acaso, como em amostras pequenas, nas quais nem todas as combinações de condições possíveis estão representadas.
 \end{itemize}
 
 

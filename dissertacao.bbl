@@ -22,6 +22,15 @@ Dispon{\'\i}vel em:
   Publishing, 2022. p. 79--90.
 ISBN 978-3-030-97546-3.}
 
+\bibitem[Das 2019]{Das2019Analysis}
+\abntrefinfo{Das}{DAS}{2019}
+{DAS, P. Analysis of collinear data: Multicollinearity.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Econometrics in Theory and Practice:
+  Analysis of Cross Section, Time Series and Panel Data with Stata 15.1}.
+  Singapore: Springer Singapore, 2019. p. 137--151.
+ISBN 978-981-32-9019-8.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-981-32-9019-8\_5}.}
+
 \bibitem[Dormann et al. 2013]{Carsten2012Collinearity}
 \abntrefinfo{Dormann et al.}{DORMANN et al.}{2013}
 {DORMANN, C.~F. et al. Collinearity: a review of methods to deal with it and a
@@ -111,5 +120,31 @@ ISBN 9798400718014. Dispon{\'\i}vel em:
 \emph{Advanced Intelligent Systems}, v.~7, n.~1, p. 2400304, 2025.
 Dispon{\'\i}vel em:
   \url{https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.202400304}.}
+
+\bibitem[Streukens e Leroi-Werelds 2023]{Streukens2023Multicollinearity}
+\abntrefinfo{Streukens e Leroi-Werelds}{STREUKENS; LEROI-WERELDS}{2023}
+{STREUKENS, S.; LEROI-WERELDS, S. Multicollinearity: An overview and
+  introduction of ridge pls-sem estimation.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Partial Least Squares Path Modeling:
+  Basic Concepts, Methodological Issues and Applications}. Cham: Springer
+  International Publishing, 2023. p. 183--207.
+ISBN 978-3-031-37772-3.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-3-031-37772-3\_7}.}
+
+\bibitem[Vatcheva et al. 2016]{Vatcheva2016Multicollinearity}
+\abntrefinfo{Vatcheva et al.}{VATCHEVA et al.}{2016}
+{VATCHEVA, K.~P. et al. Multicollinearity in regression analyses conducted in
+  epidemiologic studies.
+\emph{Epidemiology (Sunnyvale)}, OMICS International, v.~6, n.~2, p.~227, abr.
+  2016.
+Epub 2016 Mar 7.
+Dispon{\'\i}vel em:
+  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4888898/}.}
+
+\bibitem[Weisberg 2013]{weisberg2013applied}
+\abntrefinfo{Weisberg}{WEISBERG}{2013}
+{WEISBERG, S. \emph{Applied Linear Regression}. 4th. ed. Hoboken, NJ: Wiley,
+  2013.
+ISBN 978-1-118-38922-7.}
 
 \end{thebibliography}

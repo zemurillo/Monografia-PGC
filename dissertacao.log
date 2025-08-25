@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  24 AUG 2025 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  25 AUG 2025 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1310,18 +1310,18 @@ File: figs/Cronograma_Pgc1.png Graphic file (type png)
 <use figs/Cronograma_Pgc1.png>
 Package pdftex.def Info: figs/Cronograma_Pgc1.png  used on input line 167.
 (pdftex.def)             Requested size: 386.75278pt x 129.51793pt.
-) [13 <./figs/Cronograma_Pgc1.png>]
-(dissertacao.bbl (dissertacao.brf)
+ [13 <./figs/Cronograma_Pgc1.png>])
+[14] (dissertacao.bbl (dissertacao.brf)
 \tf@brf=\write5
 \openout5 = `dissertacao.brf'.
 
- [14
 
-
-
-]
 bibitemlist
-[15]) 
+[15
+
+
+
+]) 
 AED: lastpage setting LastPage
 [16]
 \tf@lof=\write6
@@ -1344,11 +1344,11 @@ Package rerunfilecheck Info: File `dissertacao.brf' has not changed.
 (rerunfilecheck)             Checksum: E08B6325F05290DF76290EA7FDDB80A4;1869.
  ) 
 Here is how much of TeX's memory you used:
- 21520 strings out of 474486
- 363489 string characters out of 5743756
+ 21533 strings out of 474486
+ 363608 string characters out of 5743756
  1941542 words of memory out of 5000000
  43090 multiletter control sequences out of 15000+600000
- 646952 words of font info for 203 fonts, out of 8000000 for 9000
+ 647243 words of font info for 206 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,107p,1324b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
@@ -1366,9 +1366,9 @@ sers/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/U
 sers/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:
 /Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
 /Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on dissertacao.pdf (28 pages, 3724771 bytes).
+Output written on dissertacao.pdf (28 pages, 3727700 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
  49850 words of extra memory for PDF output out of 51595 (max. 10000000)
 

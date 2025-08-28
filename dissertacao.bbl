@@ -7,8 +7,10 @@
 
 \bibitem[{Barredo Arrieta} et al. 2020]{arrieta2020explainable}
 \abntrefinfo{{Barredo Arrieta} et al.}{{Barredo Arrieta} et al.}{2020}
-{{Barredo Arrieta}, A. et al. Explainable artificial intelligence (xai):
-  Concepts, taxonomies, opportunities and challenges toward responsible ai.
+{{Barredo Arrieta}, A.; DíAZ-RODRíGUEZ, N.; {Del Ser}, J.; BENNETOT, A.;
+  TABIK, S.; BARBADO, A.; GARCIA, S.; GIL-LOPEZ, S.; MOLINA, D.; BENJAMINS, R.;
+  CHATILA, R.; HERRERA, F. Explainable artificial intelligence (xai): Concepts,
+  taxonomies, opportunities and challenges toward responsible ai.
 \emph{Information Fusion}, v.~58, p. 82--115, 2020.
 ISSN 1566-2535.
 Dispon{\'\i}vel em:
@@ -33,8 +35,11 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-981-32-9019-8\_5}.}
 
 \bibitem[Dormann et al. 2013]{Carsten2012Collinearity}
 \abntrefinfo{Dormann et al.}{DORMANN et al.}{2013}
-{DORMANN, C.~F. et al. Collinearity: a review of methods to deal with it and a
-  simulation study evaluating their performance.
+{DORMANN, C.~F.; ELITH, J.; BACHER, S.; BUCHMANN, C.; CARL, G.; CARRé, G.;
+  MARQUéZ, J. R.~G.; GRUBER, B.; LAFOURCADE, B.; LEITãO, P.~J.;
+  MüNKEMüLLER, T.; MCCLEAN, C.; OSBORNE, P.~E.; REINEKING, B.; SCHRöDER, B.;
+  SKIDMORE, A.~K.; ZURELL, D.; LAUTENBACH, S. Collinearity: a review of methods
+  to deal with it and a simulation study evaluating their performance.
 \emph{Ecography}, v.~36, n.~1, p. 27--46, 2013.
 Dispon{\'\i}vel em:
   \url{https://nsojournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0587.2012.07348.x}.}
@@ -73,23 +78,29 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4020-5614-7\_2569}.}
 
 \bibitem[Mijwil et al. 2022]{mijwil2022future}
 \abntrefinfo{Mijwil et al.}{MIJWIL et al.}{2022}
-{MIJWIL, M.~M. et al. Has the future started? the current growth of artificial
-  intelligence, machine learning, and deep learning.
+{MIJWIL, M.~M.; AGGARWAL, K.; SONIA, S.; AL-MISTAREHI, A.~H.; ALOMARI, S.;
+  GöK, M.; ALAABDIN, A. M.~Z.; ABDULRHMAN, S.~H. Has the future started? the
+  current growth of artificial intelligence, machine learning, and deep
+  learning.
 \emph{Iraqi Journal for Computer Science and Mathematics}, v.~3, n.~1, 2022.
 Dispon{\'\i}vel em:
   \url{https://ijcsm.researchcommons.org/ijcsm/vol3/iss1/13}.}
 
 \bibitem[Pedregosa et al. 2011]{scikit-learn}
 \abntrefinfo{Pedregosa et al.}{PEDREGOSA et al.}{2011}
-{PEDREGOSA, F. et al. Scikit-learn: Machine learning in {P}ython.
+{PEDREGOSA, F.; VAROQUAUX, G.; GRAMFORT, A.; MICHEL, V.; THIRION, B.; GRISEL,
+  O.; BLONDEL, M.; PRETTENHOFER, P.; WEISS, R.; DUBOURG, V.; VANDERPLAS, J.;
+  PASSOS, A.; COURNAPEAU, D.; BRUCHER, M.; PERROT, M.; DUCHESNAY, E.
+  Scikit-learn: Machine learning in {P}ython.
 \emph{Journal of Machine Learning Research}, v.~12, p. 2825--2830, 2011.}
 
 \bibitem[Salih et al. 2022]{Salih2022Investigating}
 \abntrefinfo{Salih et al.}{SALIH et al.}{2022}
-{SALIH, A. et al. Investigating explainable artificial intelligence for
-  mri-based classification of dementia: a new stability criterion for
-  explainable methods. In:  \emph{2022 IEEE International Conference on Image
-  Processing (ICIP)}. [S.l.: s.n.], 2022. p. 4003--4007.}
+{SALIH, A.; GALAZZO, I.~B.; CRUCIANI, F.; BRUSINI, L.; RADEVA, P. Investigating
+  explainable artificial intelligence for mri-based classification of dementia:
+  a new stability criterion for explainable methods. In:  \emph{2022 IEEE
+  International Conference on Image Processing (ICIP)}. [S.l.: s.n.], 2022. p.
+  4003--4007.}
 
 \bibitem[Salih 2024]{Salih2024MiniReview}
 \abntrefinfo{Salih}{SALIH}{2024}
@@ -108,15 +119,17 @@ ISBN 9798400718014. Dispon{\'\i}vel em:
 
 \bibitem[Salih et al. 2024]{Salih2024Characterizing}
 \abntrefinfo{Salih et al.}{SALIH et al.}{2024}
-{SALIH, A.~M. et al. Characterizing the contribution of dependent features in
-  xai methods.
+{SALIH, A.~M.; GALAZZO, I.~B.; RAISI-ESTABRAGH, Z.; PETERSEN, S.~E.; MENEGAZ,
+  G.; RADEVA, P. Characterizing the contribution of dependent features in xai
+  methods.
 \emph{IEEE Journal of Biomedical and Health Informatics}, v.~28, n.~11, p.
   6466--6473, 2024.}
 
 \bibitem[Salih et al. 2025]{salih2025a_perpective}
 \abntrefinfo{Salih et al.}{SALIH et al.}{2025}
-{SALIH, A.~M. et al. A perspective on explainable artificial intelligence
-  methods: Shap and lime.
+{SALIH, A.~M.; RAISI-ESTABRAGH, Z.; GALAZZO, I.~B.; RADEVA, P.; PETERSEN,
+  S.~E.; LEKADIR, K.; MENEGAZ, G. A perspective on explainable artificial
+  intelligence methods: Shap and lime.
 \emph{Advanced Intelligent Systems}, v.~7, n.~1, p. 2400304, 2025.
 Dispon{\'\i}vel em:
   \url{https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.202400304}.}
@@ -133,8 +146,8 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-3-031-37772-3\_7}.}
 
 \bibitem[Vatcheva et al. 2016]{Vatcheva2016Multicollinearity}
 \abntrefinfo{Vatcheva et al.}{VATCHEVA et al.}{2016}
-{VATCHEVA, K.~P. et al. Multicollinearity in regression analyses conducted in
-  epidemiologic studies.
+{VATCHEVA, K.~P.; LEE, M.; MCCORMICK, J.~B.; RAHBAR, M.~H. Multicollinearity in
+  regression analyses conducted in epidemiologic studies.
 \emph{Epidemiology (Sunnyvale)}, OMICS International, v.~6, n.~2, p.~227, abr.
   2016.
 Epub 2016 Mar 7.

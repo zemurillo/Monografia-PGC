@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  25 AUG 2025 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.6)  27 AUG 2025 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,17 +919,17 @@ LaTeX Info: Redefining \cite on input line 618.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 64.
+e 66.
 
 (extras/conf_citacoes.tex)
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 67.
+e 69.
 
 (extras/dados.tex)
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 70.
+e 72.
 
 (extras/conf_pdf.tex
 Package color Info: Redefining color blue on input line 5.
@@ -945,25 +945,25 @@ Writing index file dissertacao.idx
 (capitulos/metodologia_experimental.aux))
 \openout1 = `dissertacao.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-Package hyperref Info: Link coloring ON on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+Package hyperref Info: Link coloring ON on input line 89.
 \myptabbox=\box65
 \myptabboxwidth=\skip269
 
@@ -996,13 +996,13 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 87.
-Package microtype Info: Applying patch `item' on input line 87.
-Package microtype Info: Applying patch `toc' on input line 87.
-Package microtype Info: Applying patch `eqnum' on input line 87.
-Package microtype Info: Applying patch `footnote' on input line 87.
-Package microtype Info: Applying patch `verbatim' on input line 87.
-LaTeX Info: Redefining \microtypesetup on input line 87.
+LaTeX Info: Redefining \microtypecontext on input line 89.
+Package microtype Info: Applying patch `item' on input line 89.
+Package microtype Info: Applying patch `toc' on input line 89.
+Package microtype Info: Applying patch `eqnum' on input line 89.
+Package microtype Info: Applying patch `footnote' on input line 89.
+Package microtype Info: Applying patch `verbatim' on input line 89.
+LaTeX Info: Redefining \microtypesetup on input line 89.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1047,35 +1047,35 @@ r/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./figs/logo.png>
 
 ])
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-02.
+04.
  (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-02.
+04.
 
 (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-102.
+104.
 
 (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-102.
+104.
 
 (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 102.
+(Font)              <12> on input line 104.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 102.
+(Font)              <8> on input line 104.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 102.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 102
+(Font)              <6> on input line 104.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 104
 .
 
 (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1084,7 +1084,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 102
+LaTeX Font Info:    Trying to load font information for U+msb on input line 104
 .
 
 (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1094,7 +1094,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
-2.
+4.
 
 (C:\Users\zemur\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1103,7 +1103,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.102 	
+l.104 	
         [1
 
 
@@ -1162,7 +1162,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.136 	\include{capitulos/introducao}
+l.138 	\include{capitulos/introducao}
                                       [2]
 \openout2 = `capitulos/fundamentacao_teorica.aux'.
 
@@ -1208,7 +1208,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 	\include{capitulos/fundamentacao_teorica}
+l.140 	\include{capitulos/fundamentacao_teorica}
                                                  [6]
 \openout2 = `capitulos/metodologia_experimental.aux'.
 
@@ -1232,7 +1232,7 @@ l.52
 
 
 ]
-<figs/matriz_correlacao_inadimplencia.png, id=236, 4818.0pt x 4215.75pt>
+<figs/matriz_correlacao_inadimplencia.png, id=239, 4818.0pt x 4215.75pt>
 File: figs/matriz_correlacao_inadimplencia.png Graphic file (type png)
 <use figs/matriz_correlacao_inadimplencia.png>
 Package pdftex.def Info: figs/matriz_correlacao_inadimplencia.png  used on inpu
@@ -1281,7 +1281,7 @@ PerShare\T1/lmr/m/n/12 (+20) , \T1/lmtt/m/n/12 operatingCashFlowSalesRatio\T1/l
 mr/m/n/12 (+20) ,
  []
 
-<figs/Correlacoes_Corporate_Credit_Rating.png, id=262, 1445.4pt x 1300.86pt>
+<figs/Correlacoes_Corporate_Credit_Rating.png, id=265, 1445.4pt x 1300.86pt>
 File: figs/Correlacoes_Corporate_Credit_Rating.png Graphic file (type png)
 <use figs/Correlacoes_Corporate_Credit_Rating.png>
 Package pdftex.def Info: figs/Correlacoes_Corporate_Credit_Rating.png  used on 
@@ -1297,7 +1297,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
                    \relax 
 l.133 
        [10]
-<figs/matriz_correlacao_dados_sinteticos.png, id=270, 4818.0pt x 4215.75pt>
+<figs/matriz_correlacao_dados_sinteticos.png, id=273, 4818.0pt x 4215.75pt>
 File: figs/matriz_correlacao_dados_sinteticos.png Graphic file (type png)
 <use figs/matriz_correlacao_dados_sinteticos.png>
 Package pdftex.def Info: figs/matriz_correlacao_dados_sinteticos.png  used on i
@@ -1305,7 +1305,7 @@ nput line 147.
 (pdftex.def)             Requested size: 386.75278pt x 338.36046pt.
  [11 <./figs/Correlacoes_Corporate_Credit_Rating.png>] [12 <./figs/matriz_corre
 lacao_dados_sinteticos.png>]
-<figs/Cronograma_Pgc1.png, id=291, 516.12825pt x 172.84575pt>
+<figs/Cronograma_Pgc1.png, id=294, 516.12825pt x 172.84575pt>
 File: figs/Cronograma_Pgc1.png Graphic file (type png)
 <use figs/Cronograma_Pgc1.png>
 Package pdftex.def Info: figs/Cronograma_Pgc1.png  used on input line 167.
@@ -1341,16 +1341,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `dissertacao.brf' has not changed.
-(rerunfilecheck)             Checksum: E08B6325F05290DF76290EA7FDDB80A4;1869.
+(rerunfilecheck)             Checksum: 2A3031C7A124B8D0F69EEBF976551E94;1931.
  ) 
 Here is how much of TeX's memory you used:
- 21533 strings out of 474486
- 363608 string characters out of 5743756
+ 21532 strings out of 474486
+ 363605 string characters out of 5743756
  1941542 words of memory out of 5000000
- 43090 multiletter control sequences out of 15000+600000
- 647243 words of font info for 206 fonts, out of 8000000 for 9000
+ 43091 multiletter control sequences out of 15000+600000
+ 647114 words of font info for 205 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,107p,1324b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,107p,1324b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pf
 b><C:/Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pf
@@ -1366,9 +1366,9 @@ sers/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/U
 sers/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:
 /Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
 /Users/zemur/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on dissertacao.pdf (28 pages, 3727700 bytes).
+Output written on dissertacao.pdf (28 pages, 3729606 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
+ 518 PDF objects out of 1000 (max. 8388607)
  96 named destinations out of 1000 (max. 500000)
  49850 words of extra memory for PDF output out of 51595 (max. 10000000)
 
